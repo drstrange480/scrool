@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css__scroll.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body id="scroll__web">
+    
+    <section class="sec-1">
+        <div class="container">
+            <div class="top">
+
+            </div>
+            <div class="img__container">
+                <div class="logo__bg">
+                    <img id="bg" src="Group 3.png" alt="">
+                </div>
+                <div class="logo__front">
+                    <img id="logo" src="Group 4.png" alt="">
+                </div>
+                
+               
+            </div>
+            <div class="menu__container">
+                <div class="menubar">
+                    <div class="menu_stroke"></div>
+                    <div class="menu_stroke"></div>
+                    <div class="menu_stroke"></div>
+                </div>  
+                <div class="stroke"></div>              
+            </div>
+            <div class="media">
+                <section class="social">
+                    <ul class="social__items">
+                      <li data-text="instagram">
+                        <a href="#" class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                      </li>        
+                      <li data-text="google">
+                        <a href="#" class="google"><i class="fa fa-google" aria-hidden="true"></i></a>
+                      </li>        
+                      <li data-text="tumblr">
+                        <a href="#" class="tumblr"><i class="fa fa-tumblr" aria-hidden="true"></i></a>
+                      </li>        
+                      <li data-text="dribble">
+                        <a href="#" class="dribble"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+                      </li>
+                    </ul>
+                </section>
+
+            </div>
+
+            <!--nav-->
+            <nav class="navbar">
+                <div class="nav">
+                    <div class="nav__container">
+                        <ul>
+                            <li><a href="#home">HOME</a></li>
+                            <li><a href="#home">CONTACTS</a></li>
+                            <li><a href="#home">FAQ</a></li>
+                            <li><a href="#home">TEAM</a></li>
+                            <li><a href="#home">HOW IT WORKS</a></li>
+                            <li><a href="#home">NEWS</a></li>
+                            <li><a href="#home">SERVICES</a></li>
+                        </ul>
+                    </div>
+                </div>  
+            </nav>
+        </div>
+
+       
+    
+
+    </section>
+
+    
+    <!--script-->
+    <script src="vanilla-tilt.js"></script>
+    <script>
+
+      
+
+      VanillaTilt.init(document.querySelectorAll(".social__items li a"), {
+		    max: 35,
+		    speed: 400,
+        glare: true,
+        "max-glare": 1,
+	    });
+    </script>
+</body>
+</html>
